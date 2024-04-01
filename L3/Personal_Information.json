@@ -1,0 +1,11 @@
+{
+    "personalInfo": {
+      "name": "string",
+      "age": "number",
+      "address": "string",
+      "learningDevices": {
+        "deviceName": "string",
+        "deviceManufacturer": "string"
+      }
+    }
+  }

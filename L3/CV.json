@@ -1,0 +1,27 @@
+{
+    "cv": {
+      "personalInfo": {
+        "name": "string",
+        "address": "string",
+        "phoneNumber": "string",
+        "email": "string"
+      },
+      "education": {
+        "degree": "string",
+        "major": "string",
+        "schoolName": "string",
+        "graduationDate": "string"
+      },
+      "workExperience": [
+        {
+          "companyName": "string",
+          "position": "string",
+          "startDate": "string",
+          "endDate": "string"
+        }
+      ],
+      "skills": [
+        "string"
+      ]
+    }
+  }

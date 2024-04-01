@@ -1,0 +1,28 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:Class="URL"
+                xmlns:ClassName="URL1"
+                xmlns:ClassStudent="URL2">
+
+  <xsl:template match="/">
+    <html>
+      <body>
+        <h2>Student Information</h2>
+        <table border="1">
+          <tr>
+            <th>Full Name</th>
+            <th>Love</th>
+            <th>Learning Tools</th>
+            <th>Favourite Programming Language</th>
+          </tr>
+          <tr>
+            <td><xsl:value-of select="//ClassStudent:ClassStudent/ClassStudent:Fullname"/></td>
+            <td><xsl:value-of select="//ClassStudent:ClassStudent/ClassStudent:Love"/></td>
+            <td><xsl:value-of select="//ClassStudent:ClassStudent/ClassStudent:LearningTools"/></td>
+            <td><xsl:value-of select="//ClassStudent:ClassStudent/ClassStudent:Favouriteprogramminglanguage"/></td>
+          </tr>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+</xsl:stylesheet>

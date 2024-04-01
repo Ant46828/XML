@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Class [
+    <!ELEMENT ClassName (name, information)>
+    <!ELEMENT ClassStudent (Fullname, Love, LearningTools, Favouriteprogramminglanguage)>
+]> 
+
+<Class-list xmlns:Class = "URL">
+    <Class:ClassName xmlns:ClassName="URL1" xmlns="URL5">
+        <name>C2307L</name>
+    </Class:ClassName>
+    <Class:ClassStudent xmlns:ClassStudent="URL2">
+        <Fullname>Vu Nguyen Truong An</Fullname>
+        <Love>You</Love>
+        <LearningTools>Laptop</LearningTools>
+        <Favouriteprogramminglanguage>PHP</Favouriteprogramminglanguage>
+    </Class:ClassStudent>
+</Class-list>
